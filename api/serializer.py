@@ -32,7 +32,7 @@ class ProductSerializer(ModelSerializer):
         model = Product
         fields = [
             'id', 'title', 'description', 'price', 'quantity',
-            'subcategory', 'owner', 'dynamic_attributes'
+            'subcategory', 'owner', 'dynamic_attributes' , 'image'
         ]
 
     def get_fields(self):
